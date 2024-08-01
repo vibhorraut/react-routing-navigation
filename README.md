@@ -1,3 +1,38 @@
+# Final output
+
+![react-routing-navigation-1](https://github.com/user-attachments/assets/fe961aee-191f-442d-b90c-bff6f6046bae)
+
+![react-routing-navigation-2](https://github.com/user-attachments/assets/eeb46caf-fc2b-4178-840f-6f114168064f)
+
+
+
+# Commands
+
+To create react app :
+npx create-react-app .
+
+First, you need to install the react-router-dom package. Open your terminal and run the following command:
+npm install react-router-dom
+
+Create an Image Slider Component
+
+First, let's create a simple image slider component. We'll use react-slick, a popular carousel library for React, to build this slider.
+npm install react-slick slick-carousel
+
+And You'll also need to import the slick carousel styles in your index.js or App.js:
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
+Install Dependencies: Use npm install react-slick slick-carousel to add the slider library.
+Create Slider Component: Add ImageSlider.js with the react-slick slider setup.
+Add Slider to Home Page: Import and use the ImageSlider component in Home.js and add a descriptive paragraph.
+With these steps, your Home page will now feature an image slider and a welcoming paragraph.
+
+# App.js: Sets up the main router with routes for Home, About, and Contact pages. 
+The navigation links are styled and linked using react-router-dom.
+Home.js, About.js, Contact.js: Basic components representing different pages.
+App.css: Provides basic styling for the header and navigation, with responsive design adjustments for mobile devices.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
